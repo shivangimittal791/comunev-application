@@ -1,0 +1,163 @@
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <script type = "text/javascript" src="app.component.js" ></script> 
+    <script src="https://code.jquery.com/jquery-3.4.1.js"integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  
+<div class="cont">
+  
+  <div class="jumbotron jumbotron-fluid" style="float: right;width: 100%;margin-bottom: 0px; background-color: tomato;">
+    <div class="container">
+      
+    </div>
+  </div>
+    <!-- The sidebar -->
+
+  
+  <!-- Page content -->
+  <div  >
+    <div class="row" style=" margin-bottom: 0px;">
+      <div  class="col-lg-2">
+       
+        <div class="col-md sidebar" > 
+          <!-- <a class="active" href="#home">Event Information</a> -->
+          <a [routerLink]="" (click)="about()"><span><img src="assets/about-events-icon.png" style="padding-right: 8px; padding-bottom: 6px;"><b>About the Event</b></span></a>
+          <a [routerLink]="" (click)="venue()" ><span><img src="assets/venue-icon.png"style="padding-right: 8px; padding-bottom: 6px;"><b>Venue</b></span></a>
+          <a [routerLink]="" (click)="organizer()"><span><img src="assets/Organizer-icon.png"style="padding-right: 8px; padding-bottom: 6px;"><b>Organizer Details</b></span></a>
+          <a [routerLink]="" (click)="gallery()"><span><img src="assets/gallery-icon.png"style="padding-right: 8px; padding-bottom: 6px;"><b>Gallery</b></span></a>
+        </div>
+       
+      </div>
+
+      <div class="col-lg-7 " style=" padding-bottom: 50px;margin-right: 8px; margin-left: 8px; margin-top:8px;padding-left: 0px; padding-right: 0px;">
+        <div style="height: 250px; border: 1px solid rgb(141, 136, 136); " >
+          <p style="text-align: center; margin-top: 15%;" >event picture</p>
+        </div>
+        <div class="About" id="About">
+        <div style="height: 400px; margin-top:1%; border: 1px solid rgb(141, 136, 136); padding-left: 20px; padding-right: 20px;" >
+          <p style="padding-top: 20px; font-size: 20px; margin-bottom: 40px; " ><b style="border-bottom: 1.5px solid red; padding-bottom: 5px;">About the Event</b></p>
+          <p>Diplomathon Global - World's Most Loved Student Platform on Experiential Learning is back with a delightful 
+            opportunity for every student in school to debate, discuss and brainstorm on international relations & current 
+          affairs. We are delighted to announce our first Virtual Intern School Conference: Diplomathon <small style=" font-size: 12px;"><sup>TM</sup></small>
+           Global Virtual Edition to be held 6 & 7 June inviting thousands of students across the World to meet like-minded learners across
+           geographies from the comfort of YOUR HOME!</p>
+           <br>
+           <p>
+             Having influenced the lives of over 600K students in India & Internationally, Diplomathon Global is the Highhest Ranked Platform in 
+             India by Education World Eduresources Star Rankings 2019-2020 in Experiential Education for Programme Design, Training Support , Soft 
+             Skills & Value for Money. Establishing exclusive invitation to schools & students across the world for this unique experience of 
+             Model UN & similar Mock Parliamentary Simulations of organisations of global importance, it is a parliamentary form of debate on 
+             international organisations to understand real world scenarios and skill development. Diplomation Gloabal is a solitary stage where
+             millennials meet diplomacy.
+           </p>
+           <br>
+           <p>
+             This Virtual conference shall be attended by students of Grades 6 to Grade 12 bringing everyone together on one platform to engage
+             & interact with each other across the world from their respective Homes.
+           </p>
+        </div>
+        </div>
+
+
+
+
+       <div class="Venue" id="Venue">
+        <div style="height: 100px; margin-top:1%; border: 1px solid rgb(141, 136, 136); padding-left: 20px; padding-right: 20px;" >
+          <p  style="padding-top: 20px; margin-bottom: 20px; ">
+            <b style="font-size: 20px; border-bottom: 1.5px solid red; padding-bottom: 5px;"> Venue</b>          
+          </p>
+          <p>Location</p>
+        </div>
+       </div>
+
+
+       
+
+       <div class="Organizer-details" id="Organizer-details">
+        <div style="height: 300px; margin-top:1%; border: 1px solid rgb(141, 136, 136); padding-left: 20px; padding-right: 20px;" >
+          <p style="padding-top: 20px; margin-bottom: 20px;" ><b style="font-size: 20px; border-bottom: 1.5px solid red; padding-bottom: 5px;">Organizer Details</b></p>
+        
+        <div class="row ">
+          <div class = "col-md-4" style=" margin-left:-3%;text-align: center;">
+            <div class = "p-img ">
+              <img src = "https://i.pinimg.com/originals/1c/aa/c5/1caac55143e3e11461c6ae5962403deb.jpg">
+            </div>
+          </div>
+          <div class = "col-md" >
+            <div class = "profile-info " >
+             
+              <h1 class = "name" ><b>Name</b></h1>
+              <p class = "Organizer" style=" color: rgb(88, 85, 82); padding-left: 100px;">Organizer of The Global Boardroom by 
+                Financial Times in partnership with TNW</p>
+              
+            </div>
+          </div>
+          </div>
+          </div>
+       </div>
+
+
+
+
+
+
+<div class="Gallery" id="Gallery">
+         <div class="div1"  id="gallery">
+        <div style="height: 150px; margin-top:1%; border: 1px solid rgb(141, 136, 136); padding-left: 20px; padding-right: 20px;" >
+          <p style="padding-top: 20px; ">
+            <b style="font-size: 20px; border-bottom: 1.5px solid red; padding-bottom: 5px;">Gallery</b>
+          </p>
+          <br>
+          <p>Feature Coming Soon !</p>
+        </div>
+      
+      </div>
+      </div>
+      </div>
+
+
+
+
+     
+      <div class="col-md " style="padding-left: 0px;margin-top: 8px;padding-right: 25px;" >
+        <div style="border: 1px solid rgb(141, 136, 136);height: 250px; padding-left: 8%; padding-right: 8%;  ">
+          <p style="margin-top: 5%; font-size: 17px;"><b>StartKom - Startup Networking Event</b></p>
+          <p style="line-height: 0rem;">By Comunev</p>
+          <p style="line-height: 1rem; padding-top: 10%;"><img src="assets/date.png" style="padding-right: 8px; padding-bottom: 6px;">12 May | 11 AM - 2 PM</p>
+          <p style="line-height: 1rem;"><img src="assets/venue-icon.png" style="padding-right: 8px; padding-bottom: 6px;">Location</p>
+          <p style="line-height: 1rem;"><img src="assets/price.png" style="padding-right: 8px; padding-bottom: 6px;">Price</p>
+          <div class=button>
+          <button type="button" class="btn btn-success" style="padding: 5px 80px;">Register</button>
+        </div>
+        </div>
+
+
+
+
+        <div style="border: 1px solid rgb(141, 136, 136);height: 150px; margin-top:2.5%;">
+          <div style="margin-top: 5%; text-align: center;">
+          <p>Have any query, Connect with us<br> here-</p>
+          <div class="button-two">
+            <button style="padding: 5px 80px; color: purple; background-color: white; border: 2px solid purple; margin-top: 1px;">Contact Us</button>
+          </div>
+        </div>
+        </div>
+       
+
+       
+      </div>
+
+      <footer style="height: 300px; width: 100%; background-color: rgba(0, 0, 0, 0.2); ">
+
+      </footer>
+    </div>
+   
+
+   
+  </div>
+</div>
+

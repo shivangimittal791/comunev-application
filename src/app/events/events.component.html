@@ -1,0 +1,16 @@
+
+    
+
+<div style="font-size: 100%; text-align: center; height: 100vh; width: 100%;">
+<p style="font-size: 40px; color: white;" ><a  [routerLink]="" (click)="showUpcoming()" style="font-size: 30px; color: white;">Upcoming-Events</a> | <a  [routerLink]="" (click)="showpast()" style="font-size: 30px; color: white;">Past-Events</a> </p>
+
+<div [hidden]="hide">
+    <app-upcoming-events></app-upcoming-events>
+
+</div> 
+
+<div [hidden]="hide2">
+    <app-past-events></app-past-events>
+</div>
+</div>
+

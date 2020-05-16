@@ -1,0 +1,259 @@
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+  <script type = "text/javascript" src="app.component.js" ></script> 
+  <script src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+
+
+<div class="scroll-container">
+    <section>
+        
+      <div class="section" style="background-image: url('assets/bg.jpg');">
+        <div class="topnav">
+            <a class="navbar-brand " href="#"><i class="fa fa-diamond" aria-hidden="true" style="color: white;"></i></a>
+            
+            <div class="topnav-right">
+              <a (click)="scrollToElement(target)" style="margin-right: 10px;">About us<i class="flaticon-airplane49"></i></a>
+              <a href="#p2" style="margin-right: 10px;">Events</a>
+              <a href="#p3" style="margin-right: 10px;">Interests</a>
+              <a href="#p4" style="margin-right: 10px;">Sign up</a>
+            </div>
+          </div>
+          <div class="sectionccenter" >
+        <div >
+            <p class="introduction" style="padding-top: 8%; font-size: 40px;">Lorem ipsum dolor sit . </p>
+            <p class="introduction">sed do eiusmod tempor incididunt ut labore . </p>
+            
+            </div>
+            <div class=" button-wrapper">
+              <a class="button cta-button" href="#" style="font-size: 15px;margin-bottom:45px;">Sign Up</a>
+            </div>
+        </div>
+      </div>
+    </section>
+    <section style="background-image: url('assets/bg2.jpg');" #target>
+        <div class="section">
+            <div class="sectionccenter">
+                
+		<div style="width:100%;text-align:center;">
+			<p style="font-size: 40px; "><a routerLink = "" style="color: black;"><b>Our Events</b></a></p>
+		  </div>
+		  
+<div style="display: flex; justify-content:center; justify-content:space-around; margin-top: 7%;" >
+        
+    <div class="col-md-3"> 
+
+        <div  onclick="location.href='#'" class="box">
+			<img  style="padding: 5%;" height="60%" width="100%" src = "https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072823__340.jpg">
+		  
+		  <div class="column" >
+			
+			  <p class="events"><b>EVENT 1</b></p>
+			  <p class="description">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+			  <p class="description">Morbi in sem quis dui placerat ornare.</p>
+		  </div>
+		  </div>
+    </div>
+    <div class="col-md-3"> 
+        <div  onclick="location.href='#'" class="box">
+			<img  style="padding: 5%;" height="60%" width="100%" src = "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg">
+		  
+		  <div class="column">
+			
+			  <p class="events"><b>EVENT 2</b></p>
+			  <p class="description">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+			  <p class="description">Morbi in sem quis dui placerat ornare.</p>
+		  </div>
+		  </div>
+    </div>
+    <div class="col-md-3">
+        <div  onclick="location.href='#'" class="box">
+			<img  style="padding: 5%; " height="60%" width="100%" src = "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ3B0fwjxfBhQEOJML57RE81JJifDQTmGAzdjl8p8mlExH721nR&usqp=CAU">
+		  
+		  <div class="column">
+			
+			  <p class="events"><b>EVENT 3</b></p>
+			  <p class="description">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+			  <p class="description">Morbi in sem quis dui placerat ornare. </p>
+		  </div>
+		  </div>
+    </div>
+		
+		
+		  </div>		  
+
+		  <div style="width:100%; text-align:center ;margin-top: 7%; " class="more">
+			<a href="" style="color: white;">MORE</a>
+		  </div>
+            </div>
+        </div>
+    </section>
+    <section style="background-image: url('assets/bg3.jpg');" #target>
+        <div class="section">
+            <div class="sectionccenter">
+                <p class="features"><b>Upcoming features</b></p>
+		  <div style="height: 70vh;">
+			<div class="justify-content-md-center h-10" style="display:flex;margin-top:5%;">
+			<div class="col-md-4 zoom" style="text-align: center; margin:20px; " >
+
+				<span><img   src="assets/communities.png" />
+					<br />
+					<br />
+					<b style="text-align: center; color: white;">Communities</b>
+					<br />
+					<p style="color: white;">loreal ipsum</p>
+				  </span>
+			</div>
+
+
+
+
+
+			<div class="col-md-4 zoom" style="text-align: center;  ">
+				<span><img    src="assets/content.png" />
+					<br />
+					<br />
+					<b style="text-align: center;color: white;">Content</b>
+					<br />
+					<p style="color: white;">loreal ipsum</p>
+				  </span>
+				
+			</div>
+
+            </div>
+            <div class="justify-content-md-center h-10" style="display:flex;margin-top:5%;">
+
+
+			<div class="col-md-4 zoom" style="text-align: center;  ">
+				<span ><img   src="assets/matchmaking.png" />
+		  
+					<br />
+					<br />
+					<b style="text-align: center; color: white;">Match Making</b>
+					<br />
+					<p style="color: white;">loreal ipsum</p>
+				  </span>
+			</div>
+			
+		
+			<div class="col-md-4 zoom" style="text-align: center;  ">
+				<span ><img  src="assets/eventbookings.png"/>
+					<br />
+					<br />
+					<b  style="text-align: center; color: white;">Event Bookings</b>
+					<br />
+					<p  style="color: white;">Loreal Ipsum</p>
+				  </span>
+			</div>
+
+
+			
+			<div class="col-md-4 zoom" style="text-align: center;  ">
+				<span ><img   src="assets/chat.png" />
+				<br />
+				<br />
+					<b style="text-align: center; color: white;">Chat</b>
+					<br />
+					<p  style="color: white;">Loreal Ipsum</p>
+				  </span>
+			</div>
+			
+			</div>
+		
+			 </div>
+            </div>
+        </div>
+    </section>
+    <section style="background-image: url('assets/bg4.jpg');">
+        <div class="section">
+            <div class="sectionccenter">
+                <footer id="footer" class="row">
+		  
+                    <!-- Footer Links -->
+                    <div class="container text-center text-md-left">
+                  
+                      <!-- Grid row -->
+                      <div class="row">
+                        <hr class="clearfix w-100 d-md-none">        
+                        <hr class="clearfix w-100 d-md-none">    
+                        <!-- Grid column -->
+                        <div class="col-md-2 mx-auto">
+                  
+                          <!-- Links -->
+                          <h5 class="font-weight-bold text-uppercase mt-3 mb-4"></h5>
+                  
+                          <ul class="list-unstyled">
+                            <li>
+                              <p style="color: white;">Become a speaker</p>
+                            </li>
+                            <li>
+                              <p style="color: white;">Be a Venue partner</p>
+                            </li>
+                            <li>
+                              <p style="color: white;">Volunteer with us</p>
+                            </li>
+                            <li>
+                              <p style="color: white;">Sponser Us</p>
+                            </li>
+                            <li>
+                              <p style="color: white;">Partner with us</p>
+                            </li>
+                          </ul>
+                  
+                        </div>
+                        <!-- Grid column -->    
+                        <hr class="clearfix w-100 d-md-none">   
+                        <!-- Grid column -->
+                        <div class="col-md-2 mx-auto">   
+                          <!-- Links -->
+                          <h5 class="font-weight-bold text-uppercase mt-3 mb-4"></h5>  
+                          <ul class="list-unstyled">
+                            <li>
+                              <a href=""> <p ><b>ABOUT US</b></p></a>
+                            </li>
+                            <li>
+                              <a href=""><p ><b>EVENTS</b></p></a>
+                            </li>
+                            <li>
+                              <a href=""><p><b>COMMUNITIES</b></p></a>
+                            </li>
+                            <li>
+                              <a href=""><p><b>INTERESTS</b></p></a>
+                            </li>
+                          </ul>    
+                        </div>
+                        <!-- Grid column -->  
+                         <!-- Grid column -->
+                         <div class="col-md-2 mx-auto">    
+                          <!-- Links -->
+                          <h5 class="font-weight-bold text-uppercase mt-3 mb-4"></h5>
+                  
+                          <ul class="list-unstyled">
+                            <li>
+                            
+                              <p style="padding-right:0.2em; float: left;" ><img  src="assets/fblogo.png"></p>
+                              <p style="padding-right:0.2em; float: left;"><img   src="assets/instagram.png"></p>
+                              <p style="padding-right:0.2em; float: left;"><img  src="assets/twitter.png"></p>
+                            </li>
+                            <li>
+                              <div style="margin-right:40px;"><p><a href="mailto:contact@comunev.com">contact@comunev.com</a></p></div>
+                            </li>
+                            
+                          </ul>
+                  
+                        </div>
+                        <!-- Grid column -->
+                      </div>
+                      <!-- Grid row -->   
+                    </div>
+                    <!-- Footer Links -->  
+                  
+                  </footer>
+                  <!-- Footer -->
+            </div>
+        </div>
+    </section>
+  </div>

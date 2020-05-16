@@ -1,0 +1,183 @@
+.scroll-container {
+  height: 100vh;
+  overflow-y: scroll;
+  overflow-x:hidden;
+  scroll-snap-type: y mandatory;
+}
+
+section {
+  height: 100vh;
+  scroll-snap-align: center;
+}
+.section{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  
+}
+.sectionccenter{
+  width: 100%;
+  text-align: center;
+  margin: 0;
+        position: absolute;
+        top: 50%;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+}
+.nav {
+  box-shadow: 0px 5px 10px rgba(0,0,0,0.2);
+
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  
+}
+
+body {
+  overflow-x: hidden;
+  background: pink;
+  font-family: 'Josefin Sans', sans-serif;
+ 
+}
+
+
+.bg-color{
+  
+  background: white ;
+}
+.right {
+  position: absolute;
+
+}
+.introduction {
+  padding-top: 3%;
+  text-align: center;
+  color: black;
+}
+
+.button-wrapper {
+  display: block;
+  text-align: center;
+}
+.button {
+  border: none;
+  border-radius: 3em;
+  box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+  display: inline-block;
+  font-size: 1em;
+  padding: 1em 2em;
+  width: auto;
+  margin-top: 3%;
+  margin-right: 3% ;
+}
+
+.cta-button {
+  background-color: rgb(187, 245, 247);
+
+}
+.cta-button :hover {
+  background-color:black;
+}
+
+
+.shift {
+   
+padding: 40%;
+}
+.box {
+  width: 55vh;
+  height: 55vh;
+  border: 1px solid rgb(216, 216, 223);
+  box-shadow: 0px 5px 10px rgba(0,0,0,0.2);
+  margin-top: 4.5%;
+  margin-bottom: 5%;
+  background-color: white;
+}
+
+.more {
+  font-size: 30px;
+
+}
+.button-more:hover {
+  background-color: rgb(241, 171, 171);opacity:0.4;
+
+}
+.introduction-two {
+  text-align: center;
+  margin-top: 5%;
+}
+
+.introduction-three {
+  text-align: center;
+}
+.features {
+  text-align: center;
+  
+  font-size: 40px;
+  color: black;
+  
+}
+.arrange {
+  margin-left: 20%;
+  margin-top: 5%;
+}
+#footer {
+background-color: rgba(0,0,0,0.2);
+
+}
+
+
+.events {
+  padding-top: 2%;
+  text-align: center;
+  font-size: 25px;
+  padding-bottom: 2%;
+
+}
+.description {
+ 
+  text-align: center;
+}
+
+  
+.bg-color1 {
+  background-color: #78ccb3;
+}
+.zoom {
+  transition: transform .1s;
+}
+.zoom:hover {
+  transform: scale(1.5);
+}
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  
+  color: #4877a7;
+  padding-bottom: 2%;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.topnav-right {
+  float: right;
+  
+}
