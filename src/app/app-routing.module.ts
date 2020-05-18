@@ -11,6 +11,8 @@ import {UpcomingEventsComponent} from './upcoming-events/upcoming-events.compone
 import { InterestsComponent} from './interests/interests.component';
 import {EventDisplayComponent} from './event-display/event-display.component';
 import {AboutPageComponent} from './about-page/about-page.component';
+import { ContactUsComponent} from './contact-us/contact-us.component';
+
 
 
 const routes: Routes = [
@@ -25,6 +27,7 @@ const routes: Routes = [
   {path: 'interests' , component: InterestsComponent},
   {path: 'event-display' , component:EventDisplayComponent},
   {path: 'about-page' , component:AboutPageComponent},
+  {path: 'contact-us' , component:  ContactUsComponent},
   
 ];
 

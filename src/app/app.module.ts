@@ -21,6 +21,8 @@ import { PastEventsComponent } from './past-events/past-events.component';
 import { InterestsComponent } from './interests/interests.component';
 import { EventDisplayComponent } from './event-display/event-display.component';
 import { AboutPageComponent } from './about-page/about-page.component';
+import { ContactUsComponent } from './contact-us/contact-us.component';
+import { BecomeASpeakerComponent } from './become-a-speaker/become-a-speaker.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +36,9 @@ import { AboutPageComponent } from './about-page/about-page.component';
     PastEventsComponent,
     InterestsComponent,
     EventDisplayComponent,
-    AboutPageComponent
+    AboutPageComponent,
+    ContactUsComponent,
+    BecomeASpeakerComponent
   ],
   imports: [
     BrowserModule,

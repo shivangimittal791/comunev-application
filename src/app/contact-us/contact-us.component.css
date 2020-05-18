@@ -1,0 +1,31 @@
+.main {
+    overflow: hidden;
+   
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.jumbotron {
+    padding: 1.85%;
+} 
+
+  
+  .full-width {
+    width: 70%;
+  }
+  
+  .mat-card:not([class*=mat-elevation-z]) {
+      box-shadow: none;
+    /* box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12); */
+}
+
+.onclick:hover{
+    transform: scale(1.2);
+}
+.onclick:active {
+
+  transition: all .5s;
+}
