@@ -12,6 +12,11 @@ import { InterestsComponent} from './interests/interests.component';
 import {EventDisplayComponent} from './event-display/event-display.component';
 import {AboutPageComponent} from './about-page/about-page.component';
 import { ContactUsComponent} from './contact-us/contact-us.component';
+import {BecomeASpeakerComponent} from './become-a-speaker/become-a-speaker.component';
+import {VenuePartnerComponent} from './venue-partner/venue-partner.component';
+import {SponsorComponent} from './sponsor/sponsor.component';
+import {PartnerComponent} from './partner/partner.component';
+
 
 
 
@@ -28,7 +33,11 @@ const routes: Routes = [
   {path: 'event-display' , component:EventDisplayComponent},
   {path: 'about-page' , component:AboutPageComponent},
   {path: 'contact-us' , component:  ContactUsComponent},
-  
+  {path: 'become-a-speaker' , component: BecomeASpeakerComponent},
+  {path: 'venue-partner' , component:VenuePartnerComponent},
+  {path: 'sponsor' , component:SponsorComponent},
+  {path: 'partner' , component:PartnerComponent},
+
 ];
 
 @NgModule({

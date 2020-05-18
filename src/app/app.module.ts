@@ -23,6 +23,10 @@ import { EventDisplayComponent } from './event-display/event-display.component';
 import { AboutPageComponent } from './about-page/about-page.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { BecomeASpeakerComponent } from './become-a-speaker/become-a-speaker.component';
+import { VenuePartnerComponent } from './venue-partner/venue-partner.component';
+import { SponsorComponent } from './sponsor/sponsor.component';
+import { PartnerComponent } from './partner/partner.component';
+
 
 @NgModule({
   declarations: [
@@ -38,7 +42,11 @@ import { BecomeASpeakerComponent } from './become-a-speaker/become-a-speaker.com
     EventDisplayComponent,
     AboutPageComponent,
     ContactUsComponent,
-    BecomeASpeakerComponent
+    BecomeASpeakerComponent,
+    VenuePartnerComponent,
+    SponsorComponent,
+    PartnerComponent,
+  
   ],
   imports: [
     BrowserModule,
