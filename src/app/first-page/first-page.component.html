@@ -16,10 +16,10 @@
             <a class="navbar-brand " href="#"><i class="fa fa-diamond" aria-hidden="true" style="color: white;"></i></a>
             
             <div class="topnav-right">
-              <a (click)="scrollToElement(target)" style="margin-right: 10px;">About us<i class="flaticon-airplane49"></i></a>
-              <a href="#p2" style="margin-right: 10px;">Events</a>
-              <a href="#p3" style="margin-right: 10px;">Interests</a>
-              <a href="#p4" style="margin-right: 10px;">Sign up</a>
+              <a routerLink="/about-page" style="margin-right: 10px;">About us<i class="flaticon-airplane49"></i></a>
+              <a routerLink="/events" style="margin-right: 10px;">Events</a>
+              <a routerLink="/interests" style="margin-right: 10px;">Interests</a>
+              <a routerLink="/signup" style="margin-right: 10px;">Sign up</a>
             </div>
           </div>
           <div class="sectionccenter" >
@@ -29,7 +29,7 @@
             
             </div>
             <div class=" button-wrapper">
-              <a class="button cta-button" href="#" style="font-size: 15px;margin-bottom:45px;">Sign Up</a>
+              <a class="button cta-button" routerLink="/signup" style="font-size: 15px;margin-bottom:45px;">Sign Up</a>
             </div>
         </div>
       </div>
@@ -167,7 +167,7 @@
             </div>
         </div>
     </section>
-    <section style="background-image: url('assets/bg4.jpg');">
+    <section style="background-image: url('assets/bg4.jpg'); height:400px; font-size: 18px">
         <div class="section">
             <div class="sectionccenter">
                 <footer id="footer" class="row">
@@ -187,19 +187,19 @@
                   
                           <ul class="list-unstyled">
                             <li>
-                              <p style="color: white;">Become a speaker</p>
+                              <a routerLink="/become-a-speaker"><p style="color: white;">Become a speaker</p></a>
                             </li>
                             <li>
-                              <p style="color: white;">Be a Venue partner</p>
+                              <a routerLink="/venue-partner"><p style="color: white;">Be a Venue partner</p></a>
                             </li>
                             <li>
-                              <p style="color: white;">Volunteer with us</p>
+                              <a routerLink="/volunteer"><p style="color: white;">Volunteer with us</p></a>
                             </li>
                             <li>
-                              <p style="color: white;">Sponser Us</p>
+                             <a routerLink="/sponsor"><p style="color: white;">Sponsor Us</p></a>
                             </li>
                             <li>
-                              <p style="color: white;">Partner with us</p>
+                              <a routerLink="/partner"><p style="color: white;">Partner with us</p></a>
                             </li>
                           </ul>
                   
@@ -212,16 +212,16 @@
                           <h5 class="font-weight-bold text-uppercase mt-3 mb-4"></h5>  
                           <ul class="list-unstyled">
                             <li>
-                              <a href=""> <p ><b>ABOUT US</b></p></a>
+                              <a routerLink="/about-page"> <p ><b>ABOUT US</b></p></a>
                             </li>
                             <li>
-                              <a href=""><p ><b>EVENTS</b></p></a>
+                              <a routerLink="/events"><p ><b>EVENTS</b></p></a>
                             </li>
                             <li>
-                              <a href=""><p><b>COMMUNITIES</b></p></a>
+                              <a routerLink="/communities"><p><b>COMMUNITIES</b></p></a>
                             </li>
                             <li>
-                              <a href=""><p><b>INTERESTS</b></p></a>
+                              <a routerLink="/interests"><p><b>INTERESTS</b></p></a>
                             </li>
                           </ul>    
                         </div>
@@ -234,9 +234,11 @@
                           <ul class="list-unstyled">
                             <li>
                             
-                              <p style="padding-right:0.2em; float: left;" ><img  src="assets/fblogo.png"></p>
-                              <p style="padding-right:0.2em; float: left;"><img   src="assets/instagram.png"></p>
-                              <p style="padding-right:0.2em; float: left;"><img  src="assets/twitter.png"></p>
+                              <p class="onclick" style="padding-right:0.2em; float: left;"><a href="https://www.facebook.com/comunev"><img src="assets/facebook-big.png"></a></p>
+                              <p class="onclick"  style="padding-right:0.2em; float: left;"><a href="https://www.instagram.com/comunevindia"><img src="assets/instagram-big.png"></a></p>
+                              <p class="onclick" style="padding-right:0.2em; float: left;"><a href="https://twitter.com/comunevindia"><img  src="assets/twitter-big.png"></a></p>
+                              <p class="onclick" style="padding-right:0.2em; float: left;"><a href="https://www.linkedin.com/company/comunev"><img  src="assets/linkedin-icon.png"></a></p>
+                              
                             </li>
                             <li>
                               <div style="margin-right:40px;"><p><a href="mailto:contact@comunev.com">contact@comunev.com</a></p></div>

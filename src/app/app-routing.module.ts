@@ -16,6 +16,9 @@ import {BecomeASpeakerComponent} from './become-a-speaker/become-a-speaker.compo
 import {VenuePartnerComponent} from './venue-partner/venue-partner.component';
 import {SponsorComponent} from './sponsor/sponsor.component';
 import {PartnerComponent} from './partner/partner.component';
+import {VolunteerComponent} from './volunteer/volunteer.component';
+import {CommunitiesComponent} from './communities/communities.component';
+
 
 
 
@@ -37,6 +40,8 @@ const routes: Routes = [
   {path: 'venue-partner' , component:VenuePartnerComponent},
   {path: 'sponsor' , component:SponsorComponent},
   {path: 'partner' , component:PartnerComponent},
+  {path: 'volunteer' , component:VolunteerComponent},
+  {path: 'communities' , component:CommunitiesComponent},
 
 ];
 

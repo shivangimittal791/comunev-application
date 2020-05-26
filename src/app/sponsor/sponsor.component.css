@@ -1,5 +1,7 @@
 .main {
-  overflow: hidden;
+  overflow-x: hidden;
+  font-family: 'Josefin Sans' , sans-serif;
+
  
 }
 
@@ -7,10 +9,6 @@
 display: flex;
 justify-content: center;
 }
-
-.jumbotron {
-  padding: 1.85%;
-} 
 
 
 .full-width {
@@ -24,4 +22,48 @@ justify-content: center;
 
 .filter {
   filter: invert(100%);
+}
+
+
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  
+  color: #4877a7;
+  padding-bottom: 2%;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.topnav-right {
+  float: right;
+  
+}
+
+
+
+
+.onclick:hover{
+  transform: scale(1.2);
+}
+.onclick:active {
+
+transition: all .5s;
 }

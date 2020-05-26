@@ -26,6 +26,8 @@ import { BecomeASpeakerComponent } from './become-a-speaker/become-a-speaker.com
 import { VenuePartnerComponent } from './venue-partner/venue-partner.component';
 import { SponsorComponent } from './sponsor/sponsor.component';
 import { PartnerComponent } from './partner/partner.component';
+import { VolunteerComponent } from './volunteer/volunteer.component';
+import { CommunitiesComponent } from './communities/communities.component';
 
 
 @NgModule({
@@ -46,6 +48,8 @@ import { PartnerComponent } from './partner/partner.component';
     VenuePartnerComponent,
     SponsorComponent,
     PartnerComponent,
+    VolunteerComponent,
+    CommunitiesComponent,
   
   ],
   imports: [
